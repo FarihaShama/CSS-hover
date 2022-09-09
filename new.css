@@ -1,0 +1,137 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    height: 70px;
+    background-color:darkgrey;
+    overflow-y: hidden;
+}
+.empty{
+    min-height: 320px;
+}
+footer{
+    position: relative;
+    min-height: 178.5px;
+    height: 100%;
+    width: 100%;
+
+}
+.part1{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    min-height: 40px;
+    height: 100%;
+    background-color: #921601;
+    transition: all .2s ease-in-out;
+}
+.part1:hover{
+    transform: scaleY(1.2);
+}
+.part1:hover .footer{
+    min-height: 20px;
+}
+.part2{
+    position: absolute;
+    min-height: 235.5px;
+    width: 50%;
+    top:80%;
+    left: 25%;
+    background-color: #C7452E;
+    border-radius: 20%;
+    transition: all .2s ease-in-out;
+
+}
+.part2:hover{
+    transform: scaleY(1.2);
+}
+.footer:hover .part1{
+    transform: scaleY(1.2);
+}
+.footer:hover .part2{
+    transform: scaleY(1.2);
+}
+.container1{
+    position: absolute;
+    top: 110%;
+    left: 30%;
+    transition: all .2s ease-in-out;
+       height: 170px;
+     
+    width: 140px;
+    border-radius: 20%;
+}
+.footer:hover .container1{
+    transform: scaleY(1.2);
+}
+.container2{
+    position: absolute;
+    top: 120%;
+    left: 40%;
+    transition: all .2s ease-in-out;
+       height: 140px;
+     
+    width: 110px;
+    border-radius: 20%;
+}
+.footer:hover .container2{
+    transform: scaleY(1.2);
+}
+.content1{
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    transition: all .3s ease-in-out;
+    transition-delay: .4s;
+   /* transform: translateY(-30px);*/
+
+}
+.content1 p{
+    font-size: 20px;
+    color: white;
+    text-align: left;
+
+}
+.footer:hover .content1{
+    opacity: 0;
+    transform: translateY(40px);
+}
+.content2{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    transition: all .3s ease-in-out;
+    transition-delay: .4s;
+   /* transform: translateX(30px);*/
+
+    opacity: 0;
+
+}
+.content2 p{
+    font-size: 15px;
+    color: white;
+    text-align: left;
+    opacity: 1;
+
+}
+.footer:hover .content2{
+    opacity: 1;
+    transform: translateX(-30px);
+}
+.button1{
+    position: absolute;
+    top: 159%;
+    left: 65%;
+    text-align: center;
+    background: white;
+    color: #921601;
+    border-color: white;
+    border-radius: 30%;
+    font-family:serif;
+    font-size: 10px;
+    transition: all .3s ease-in-out;
+   
+
+}
+.footer:hover .button1{
+    transform: translateX(-160px);
+}
